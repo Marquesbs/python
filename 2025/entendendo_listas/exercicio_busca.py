@@ -16,3 +16,12 @@ while i < 2:
         c += 1
     i += 1
     c = 0
+
+# Utilizando o for para verificar se o item está na lista
+for item in moveis:
+    item_procurado = input("Digite o nome do item que você está procurando: ")
+    if item == item_procurado:
+        print(f"Item encontrado: {moveis[c]} no índice {c}")
+        break
+    else:
+        print("Item não encontrado")
