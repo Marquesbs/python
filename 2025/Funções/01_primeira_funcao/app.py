@@ -1,4 +1,9 @@
-def digaOi (nome):
+def saudacao (nome):
     print("Olá, %s!" %nome)
 
-digaOi("Bruno")
+saudacao("Bruno")
+
+def digaOla():
+    print("Olá Mundo!")
+
+digaOla()
