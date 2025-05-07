@@ -1,5 +1,7 @@
 import re
 
+#documentação: https://docs.python.org/3/library/re.html
+
 musica = '''
 Todos os dias quando acordo
 Não tenho mais o tempo que passou
